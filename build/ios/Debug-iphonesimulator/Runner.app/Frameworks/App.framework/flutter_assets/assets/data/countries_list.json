@@ -1,0 +1,36 @@
+[
+  {
+    "id":1,
+    "name": "Egypt",
+    "nameAr": "مصر",
+    "imageUrl": "https://admin.imploy.co/Images/Flag_of_Egypt.svg220105164.png",
+    "isLogin": false,
+    "code": "+20",
+    "phoneLength": 10,
+    "phoneHint": "013 0588 1510",
+    "nationality": "Egyptian",
+    "nationalityAr": "مصري",
+    "currency": "EGP",
+    "currencyAr": "جنيه مصري",
+    "language": "ar",
+    "languageAr": "العربية",
+    "isDefault": true
+  },
+  {
+    "id": 2,
+    "name": "Saudi Arabia",
+    "nameAr": "المملكة العربية السعودية",
+    "imageUrl": "https://admin.imploy.co/Images/Saudi_arabia_flag_large221554162.png",
+    "isLogin": false,
+    "code": "+966",
+    "phoneLength": 9,
+    "phoneHint": "512 345 678",
+    "nationality": "Saudi",
+    "nationalityAr": "سعودي",
+    "currency": "SAR",
+    "currencyAr": "ريال سعودي",
+    "language": "ar",
+    "languageAr": "العربية",
+    "isDefault": false
+  }
+]

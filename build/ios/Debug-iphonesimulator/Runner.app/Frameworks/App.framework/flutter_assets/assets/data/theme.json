@@ -1,0 +1,17 @@
+{
+  "primary": "#FF5CAB",
+  "secondary": "#A261FF",
+  "accent": "#47CEFF",
+  "success": "#4CD964",
+  "warning": "#FF9500",
+  "error": "#FF3B30",
+  
+  "backgroundLight": "#F8F8F8",
+  "backgroundDark": "#1A1A1C",
+  "surfaceLight": "#FFFFFF",
+  "surfaceDark": "#2C2C2E",
+  "borderLight": "#E5E5EA",
+  "borderDark": "#38383A",
+  "textLight": "#F2F2F7",
+  "textDark": "#1C1C1E"
+}

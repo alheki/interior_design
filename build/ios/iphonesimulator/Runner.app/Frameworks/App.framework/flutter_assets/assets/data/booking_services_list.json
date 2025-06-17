@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Home Service",
+    "name": "Home Service",
+    "nameAr": "الخدمة المنزلية",
+    "imageUrl": "https://github.com/islamAlheki2019/images/blob/main/home_visit.png?raw=true",
+    "soon": false,
+    "isReservation": false,
+    "description": "Beauty professionals come to your address",
+    "descriptionAR": " خبراء التجميل يأتون إلى عنوانك."
+  },
+  {
+    "id": "Salon Visit",
+    "name": "Salon Visit",
+    "nameAr": "زيارة الصالون",
+    "soon": false,
+    "isReservation": true,
+    "imageUrl": "https://github.com/islamAlheki2019/images/blob/main/salon_visit.png?raw=true",
+    "description": "Visit one of our partners salons.",
+    "descriptionAr": "قم بزيارة أحد صالونات شركائنا."
+  }
+]

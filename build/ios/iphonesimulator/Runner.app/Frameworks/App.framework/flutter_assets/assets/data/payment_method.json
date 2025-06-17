@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Cash on Delivery",
+    "name": "Cash on Delivery",
+    "nameAr": "الدفع عند الاستلام",
+    "description": "Pay when service is completed",
+    "descriptionAR": " الدفع عند اكتمال الخدمة.",
+    "imageUrl": "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg",
+    "soon": false,
+    "type": 0
+  }
+]

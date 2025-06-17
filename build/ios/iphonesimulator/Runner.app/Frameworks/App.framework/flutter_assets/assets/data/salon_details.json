@@ -1,0 +1,120 @@
+{
+  "id": "salon1",
+  "name": "Elegance Beauty Salon",
+  "nameAR": "Elegance Beauty Salon",
+  "description": "A luxurious salon for beauty and wellness",
+  "descriptionAR": "صالون راقية للتجميل والتعقيم",
+  "mainImage": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+  "rating": 4.8,
+  "reviewCount": 354,
+  "latitude": 34.123456,
+  "longitude": 45.789012,
+  "address": "123 Main Street, Downtown",
+  "services": ["Hair Styling", "Nail Care", "Makeup", "Facials"],
+  "isPromoted": true,
+  "isFavorite": true,
+  "openingTime": "09:00 AM",
+  "closingTime": "07:00 PM",
+
+  "allowedServices": [
+    {
+      "id": "Home Service",
+      "name": "Home Service",
+      "nameAr": "الخدمة المنزلية",
+      "imageUrl": "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg",
+      "soon": false,
+      "isReservation": false,
+      "description": "Beauty professionals come to your address",
+      "descriptionAR": " خبراء التجميل يأتون إلى عنوانك."
+    },
+    {
+      "id": "Salon Visit",
+      "name": "Salon Visit",
+      "nameAr": "زيارة الصالون",
+      "soon": false,
+      "isReservation": true,
+      "imageUrl": "https://images.pexels.com/photos/3865680/pexels-photo-3865680.jpeg",
+      "description": "Visit one of our partners salons.",
+      "descriptionAr": "قم بزيارة أحد صالونات شركائنا."
+    }
+  ],
+
+  "rateCountList": [
+    {
+      "rate": 5,
+      "count": 4
+    },
+    {
+      "rate": 4,
+      "count": 10
+    },
+    {
+      "rate": 3,
+      "count": 5
+    },
+    {
+      "rate": 2,
+      "count": 3
+    },
+    {
+      "rate": 1,
+      "count": 2
+    }
+
+  ],
+  "reviewList": [
+    {
+      "name": "John Doe",
+      "rate": 4,
+      "review": "Great salon for hair and makeup. Highly recommended!"
+    },
+    {
+      "name": "Jane Smith",
+      "rate": 3,
+      "review": "Good service, but could be better."
+    },
+    {
+      "name": "Bob Johnson",
+      "rate": 5,
+      "review": "Excellent salon with top-notch services."
+    },
+    {
+      "name": "Alice Brown",
+      "rate": 4,
+      "review": "Friendly staff, great atmosphere."
+    },
+    {
+      "name": "Charlie Davis",
+      "rate": 3,
+      "review": "Average salon, nothing special."
+    }
+  ],
+  "mediaList": [
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 0
+    },
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 1
+    },
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 0
+    },
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 0
+    },
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 0
+    },
+    {
+      "url": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+      "type": 0
+    }
+  ]
+
+
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "Woman",
+    "name": "Woman",
+    "nameAr": "فتاة",
+    "initialRecipients": 1,
+    "maxRecipients": 10,
+    "imageUrl": "https://raw.githubusercontent.com/islamAlheki2019/images/9c3c95009a9dbc0a24d50f092a9c4298dc26fcfd/girl-svgrepo-com%20(1).svg"
+  },
+  {
+    "id": "Little Girl",
+    "name": "Little Girl",
+    "nameAr": "طفلة",
+    "initialRecipients": 0,
+    "maxRecipients": 5,
+    "imageUrl": "https://raw.githubusercontent.com/islamAlheki2019/images/9c3c95009a9dbc0a24d50f092a9c4298dc26fcfd/girl-svgrepo-com%20(2).svg"
+  }
+
+]

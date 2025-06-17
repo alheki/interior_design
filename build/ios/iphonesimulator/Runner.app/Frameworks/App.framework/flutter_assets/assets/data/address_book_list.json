@@ -1,0 +1,54 @@
+[
+  {
+    "id": "Home Address",
+    "addressName": "Home Address",
+    "streetName": "123 Main Street, Apt 4B",
+    "addressLine": "Egypt, Cairo, Giza, 12345",
+    "addressType": 0,
+    "country":{
+      "id": "1",
+      "code": "EG",
+      "name": "Egypt",
+      "nameAr": "مصر"
+    },
+    "city": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "area": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "isDefault": true,
+    "latitude": 203923.2,
+    "longitude":203923.2
+  },
+  {
+    "id": "work address",
+    "addressName": "work address",
+    "streetName": "456 Business Ave, Suite 200",
+    "addressLine": "Egypt, Cairo, Giza, 12345",
+    "addressType": 1,
+    "country":{
+      "id": "1",
+      "code": "EG",
+      "name": "Egypt",
+      "nameAr": "مصر"
+    },
+    "city": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "area": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "isDefault": false,
+    "latitude": 203923.2,
+    "longitude":203923.2
+  }
+]

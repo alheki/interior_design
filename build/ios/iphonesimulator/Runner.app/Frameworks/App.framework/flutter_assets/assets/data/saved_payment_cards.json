@@ -1,0 +1,16 @@
+[
+  {
+    "id": "Visa",
+    "name": "Visa",
+    "nameAr": "فيزا",
+    "cardNumber": "**** **** **** 1234",
+    "cardImage": "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg"
+  },
+  {
+    "id": "MasterCard",
+    "name": "MasterCard",
+    "nameAr": "ماستركارد",
+    "cardNumber": "**** **** **** 2666",
+    "cardImage": "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg"
+  }
+]

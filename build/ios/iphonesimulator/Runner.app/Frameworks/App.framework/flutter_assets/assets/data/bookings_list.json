@@ -1,0 +1,354 @@
+{
+  "statusCode": 200,
+  "statusMessage": "",
+  "pageNumber": 1,
+  "totalPages": 5,
+  "totalCount": 500,
+  "pageSize": 20,
+  "items": [
+    {
+      "id": "booking1",
+      "statusId": 1,
+      "statusNameEn": "Pending",
+      "statusNameAr": "قيد الانتظار",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 500.0,
+        "fee": 500.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": true,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    {
+      "id": "booking2",
+      "statusId": 2,
+      "statusNameEn": "confirmed",
+      "statusNameAr": "مؤكد",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "salon": {
+        "id": "salon1",
+        "name": "Elegance Beauty Salon",
+        "nameAR": "Elegance Beauty Salon",
+        "description": "A luxurious salon for beauty and wellness",
+        "descriptionAR": "صالون راقية للتجميل والتعقيم",
+        "mainImage": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+        "rating": 4.8,
+        "reviewCount": 354,
+        "latitude": 34.123456,
+        "longitude": 45.789012,
+        "address": "123 Main Street, Downtown",
+        "services": ["Hair Styling", "Nail Care", "Makeup", "Facials"],
+        "isPromoted": true,
+        "isFavorite": true,
+        "openingTime": "09:00 AM",
+        "closingTime": "07:00 PM"
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 6.0,
+        "fee": 66.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    {
+      "id": "booking3",
+      "statusId": 3,
+      "statusNameEn": "started",
+      "statusNameAr": "بدأت",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 5.0,
+        "fee": 5.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    {
+      "id": "booking3",
+      "statusId": 4,
+      "statusNameEn": "rejected",
+      "statusNameAr": "مرفوض",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 44.0,
+        "fee": 4.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    {
+      "id": "booking4",
+      "statusId": 5,
+      "statusNameEn": "cancelled",
+      "statusNameAr": "ملغي",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 3.0,
+        "fee": 33.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+    {
+      "id": "booking5",
+      "statusId": 6,
+      "statusNameEn": "completed",
+      "statusNameAr": "مكتمل",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 500.0,
+        "fee": 500.0,
+        "vat": 500.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": false,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    },
+
+    {
+      "id": "booking6",
+      "statusId": 7,
+      "statusNameEn": "completed",
+      "statusNameAr": "مكتمل",
+      "dateTime": "2025-06-15T14:30:00.000Z",
+      "address": {
+        "id": "Home Address",
+        "addressName": "Home Address",
+        "streetName": "123 Main Street, Apt 4B",
+        "addressLine": "Egypt, Cairo, Giza, 12345",
+        "addressType": 0,
+        "country":{
+          "id": "1",
+          "code": "EG",
+          "name": "Egypt",
+          "nameAr": "مصر"
+        },
+        "city": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "area": {
+          "id": "1",
+          "name": "Cairo",
+          "nameAr": "القاهرة"
+        },
+        "isDefault": true,
+        "latitude": 203923.2,
+        "longitude":203923.2
+      },
+      "invoiceData":{
+        "subTotal": 500.0,
+        "total": 500.0,
+        "fee": 998.0,
+        "vat": 8.0
+      },
+      "distanceKm": 0.0,
+      "canBeCancelled": false,
+      "isRated": true,
+      "clientLocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      }
+    }
+
+
+  ]
+
+}

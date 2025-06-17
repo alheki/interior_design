@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Beauty Services",
+    "name": "Beauty Services",
+    "nameAr": "خدمات التجميل",
+    "imageUrl": "https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg",
+    "soon": false,
+    "description": "Professional hair, skin, nails, brows & makeup care.",
+    "descriptionAR": " خدمات احترافية للشعر، البشرة، الأظافر، الحواجب والميكب."
+  },
+  {
+    "id": "Event Preparation",
+    "name": "Event Preparation",
+    "nameAr": "تجهيز المناسبات",
+    "soon": false,
+    "imageUrl": "https://images.pexels.com/photos/3865680/pexels-photo-3865680.jpeg",
+    "description": "Styling, packages, and coordination for occasions.",
+    "descriptionAr": "تجهيزات، باكدجات، وتنظيم للمناسبات."
+  },
+  {
+    "id": "Massage & Relaxation",
+    "name": "Massage & Relaxation",
+    "nameAr": "المساج والاسترخاء",
+    "soon": true,
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Relaxing and therapeutic massages for all ages.",
+    "descriptionAr": "مساجات استرخاء وعلاجية لجميع الأعمار."
+  },
+
+
+  {
+    "id": "Medical & Aesthetic",
+    "name": "Medical & Aesthetic",
+    "nameAr": "جلسات طبية",
+    "soon": true,
+    "imageUrl": "https://images.pexels.com/photos/3865680/pexels-photo-3865680.jpeg",
+    "description": "Advanced medical and aesthetic skin treatments",
+    "descriptionAr": "جلسات طبية وجمالية متقدمة للعناية بالبشرة."
+  },
+  {
+    "id": "Hijab & Headscarf Styling",
+    "name": "Hijab & Headscarf Styling",
+    "nameAr": " الحجاب وتنسيق اللفات",
+    "soon": true,
+    "imageUrl": "https://images.pexels.com/photos/3865680/pexels-photo-3865680.jpeg",
+    "description": "Stylish hijab wrapping and tutorials.",
+    "descriptionAr": "لفات حجاب أنيقة وتعليمية."
+
+  }
+]

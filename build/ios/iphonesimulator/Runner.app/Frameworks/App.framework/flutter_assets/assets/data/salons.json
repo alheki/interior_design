@@ -1,0 +1,99 @@
+[
+  {
+    "id": "salon1",
+    "name": "Elegance Beauty Salon",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+    "mainImage": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+    "rating": 4.8,
+    "reviewCount": 354,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+    "address": "123 Main Street, Downtown",
+    "services": ["Hair Styling", "Nail Care", "Makeup", "Facials"],
+    "isPromoted": true,
+    "isFavorite": true,
+    "openingTime": "09:00 AM",
+    "closingTime": "07:00 PM"
+  },
+  {
+    "id": "salon2",
+    "name": "Glamour Zone",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+
+    "mainImage": "https://images.pexels.com/photos/3993447/pexels-photo-3993447.jpeg",
+    "rating": 4.5,
+    "reviewCount": 187,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+    "address": "456 Park Avenue, Uptown",
+    "services": ["Hair Coloring", "Eyelash Extensions", "Waxing"],
+    "isPromoted": true,
+    "isFavorite": false,
+    "openingTime": "10:00 AM",
+    "closingTime": "08:00 PM"
+  },
+  {
+    "id": "salon3",
+    "name": "Serene Spa & Beauty",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+
+    "mainImage": "https://images.pexels.com/photos/3992855/pexels-photo-3992855.jpeg",
+    "rating": 4.9,
+    "reviewCount": 421,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+
+    "address": "789 Elm Street, Westside",
+    "services": ["Massage", "Facials", "Body Scrubs", "Manicure"],
+    "isPromoted": false,
+    "isFavorite": true,
+    "openingTime": "08:00 AM",
+    "closingTime": "09:00 PM"
+  },
+  {
+    "id": "salon4",
+    "name": "Hair & Beauty Studio",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+
+    "mainImage": "https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg",
+    "rating": 4.6,
+    "reviewCount": 275,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+
+    "address": "321 Oak Road, Eastside",
+    "services": ["Hair Styling", "Haircuts", "Highlights"],
+    "isPromoted": true,
+    "isFavorite": true,
+    "openingTime": "09:00 AM",
+    "closingTime": "06:00 PM"
+  },
+  {
+    "id": "salon5",
+    "name": "Pure Bliss Spa",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+
+    "mainImage": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "rating": 4.7,
+    "reviewCount": 198,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+
+    "address": "567 Pine Avenue, Northside",
+    "services": ["Massage", "Aromatherapy", "Hot Stone Therapy"],
+    "isPromoted": false,
+    "isFavorite": true,
+    "openingTime": "10:00 AM",
+    "closingTime": "07:00 PM"
+  }
+]

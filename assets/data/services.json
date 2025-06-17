@@ -1,0 +1,171 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "en_name": "Landscape",
+      "ar_name": "تنسيق حدائق",
+      "en_description": "Beautiful landscape design for your outdoor spaces",
+      "ar_description": "تصميم جميل للمناظر الطبيعية للمساحات الخارجية",
+      "cover": "https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg",
+      "gallery_images": [
+        "https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg",
+        "https://images.pexels.com/photos/1453793/pexels-photo-1453793.jpeg",
+        "https://images.pexels.com/photos/1456951/pexels-photo-1456951.jpeg"
+      ],
+      "with_packages": false,
+      "packages": []
+    },
+    {
+      "id": 2,
+      "en_name": "Swimming Pools",
+      "ar_name": "حمامات سباحة",
+      "en_description": "Professional swimming pool installation and maintenance",
+      "ar_description": "تركيب وصيانة حمامات السباحة بشكل احترافي",
+      "cover": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg",
+      "gallery_images": [
+        "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg",
+        "https://images.pexels.com/photos/1001435/pexels-photo-1001435.jpeg",
+        "https://images.pexels.com/photos/2598638/pexels-photo-2598638.jpeg"
+      ],
+      "with_packages": false,
+      "packages": []
+    },
+    {
+      "id": 3,
+      "en_name": "Artificial Grass",
+      "ar_name": "عشب صناعي",
+      "en_description": "High-quality artificial grass installation",
+      "ar_description": "تركيب عشب صناعي عالي الجودة",
+      "cover": "https://images.pexels.com/photos/209234/pexels-photo-209234.jpeg",
+      "gallery_images": [
+        "https://images.pexels.com/photos/209234/pexels-photo-209234.jpeg",
+        "https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg",
+        "https://images.pexels.com/photos/1738987/pexels-photo-1738987.jpeg"
+      ],
+      "with_packages": false,
+      "packages": []
+    },
+    {
+      "id": 4,
+      "en_name": "Designs",
+      "ar_name": "تصاميم",
+      "en_description": "Creative architectural and interior designs",
+      "ar_description": "تصاميم معمارية وداخلية إبداعية",
+      "cover": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+      "gallery_images": [
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+        "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+        "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg"
+      ],
+      "with_packages": false,
+      "packages": []
+    },
+    {
+      "id": 6,
+      "en_name": "Interior Design",
+      "ar_name": "تصميم داخلي",
+      "en_description": "Complete interior design packages for your home",
+      "ar_description": "باقات تصميم داخلي كاملة لمنزلك",
+      "cover": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+      "gallery_images": [
+        "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+        "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg"
+      ],
+      "with_packages": true,
+      "packages": [
+        {
+          "id": 1,
+          "en_package_name": "Basic Package",
+          "ar_package_name": "الباقة الأساسية",
+          "cover": "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+          "gallery_images": [
+            "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+            "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+          ],
+          "price_per_meter": 500.0,
+          "points": [
+            {
+              "en_title": "Basic floor plan design",
+              "ar_title": "تصميم مخطط أرضي أساسي"
+            },
+            {
+              "en_title": "Color consultation",
+              "ar_title": "استشارة الألوان"
+            },
+            {
+              "en_title": "Furniture layout",
+              "ar_title": "تخطيط الأثاث"
+            }
+          ],
+          "service_id": 6
+        },
+        {
+          "id": 2,
+          "en_package_name": "Premium Package",
+          "ar_package_name": "الباقة المميزة",
+          "cover": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+          "gallery_images": [
+            "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+            "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg"
+          ],
+          "price_per_meter": 800.0,
+          "points": [
+            {
+              "en_title": "Detailed floor plan design",
+              "ar_title": "تصميم مخطط أرضي مفصل"
+            },
+            {
+              "en_title": "3D visualization",
+              "ar_title": "تصور ثلاثي الأبعاد"
+            },
+            {
+              "en_title": "Custom furniture selection",
+              "ar_title": "اختيار أثاث مخصص"
+            },
+            {
+              "en_title": "Lighting design",
+              "ar_title": "تصميم الإضاءة"
+            }
+          ],
+          "service_id": 6
+        },
+        {
+          "id": 3,
+          "en_package_name": "Ultimate Package",
+          "ar_package_name": "الباقة الشاملة",
+          "cover": "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg",
+          "gallery_images": [
+            "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg",
+            "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+            "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+          ],
+          "price_per_meter": 1200.0,
+          "points": [
+            {
+              "en_title": "Complete architectural design",
+              "ar_title": "تصميم معماري كامل"
+            },
+            {
+              "en_title": "Advanced 3D rendering",
+              "ar_title": "تصيير ثلاثي الأبعاد متقدم"
+            },
+            {
+              "en_title": "Premium furniture package",
+              "ar_title": "باقة أثاث مميزة"
+            },
+            {
+              "en_title": "Complete project management",
+              "ar_title": "إدارة مشروع كاملة"
+            },
+            {
+              "en_title": "Ongoing support",
+              "ar_title": "دعم مستمر"
+            }
+          ],
+          "service_id": 6
+        }
+      ]
+    }
+  ]
+}

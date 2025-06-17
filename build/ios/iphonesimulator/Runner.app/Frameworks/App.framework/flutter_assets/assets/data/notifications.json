@@ -1,0 +1,19 @@
+{
+  "notifications": [
+    {
+      "title": "Welcome to Home Services!",
+      "body": "Thank you for downloading our app. Explore our amazing services and get started with your home improvement journey.",
+      "timestamp": "2024-01-15T10:30:00Z"
+    },
+    {
+      "title": "New Service Available",
+      "body": "We've added Artificial Grass installation to our services. Check it out now!",
+      "timestamp": "2024-01-10T14:45:00Z"
+    },
+    {
+      "title": "Special Offer",
+      "body": "Get 20% off on all Interior Design packages this month. Limited time offer!",
+      "timestamp": "2024-01-05T09:15:00Z"
+    }
+  ]
+}

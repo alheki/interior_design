@@ -1,0 +1,22 @@
+[
+  {
+    "id": "Any Salon",
+    "name": "Any Salon",
+    "nameAr": "أي صالون",
+    "imageUrl": "https://github.com/islamAlheki2019/images/blob/main/any_salon.png?raw=true",
+    "soon": false,
+    "type": 0,
+    "description": "You will get service from any salon",
+    "descriptionAR": " سوف تحصل على الخدمة من أي صالون."
+  },
+  {
+    "id": "Specific salon",
+    "name": "Specific salon",
+    "nameAr": "صالون محدد",
+    "soon": false,
+    "type": 1,
+    "imageUrl": "https://github.com/islamAlheki2019/images/blob/main/salon_visit.png?raw=true",
+    "description": "You can select a specific salon.",
+    "descriptionAr": "يمكنك اختيار صالون محدد."
+  }
+]

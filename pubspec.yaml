@@ -1,0 +1,55 @@
+name: home_services_app
+description: A Flutter application for home services with BLoC architecture
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  
+  # Navigation
+  go_router: ^15.2.0
+  
+  # HTTP & Data
+  http: ^1.4.0
+  shared_preferences: ^2.5.3
+  
+  # UI Components
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.1.1
+  flutter_html: ^3.0.0
+  url_launcher: ^6.3.1
+  flutter_svg: ^2.1.0
+  lottie: ^3.3.1
+  package_info: ^2.0.2
+
+  # Utils
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+#    - assets/images/
+    - assets/data/
+    - assets/translations/
+#
+#  fonts:
+#    - family: Cairo
+#      fonts:
+#        - asset: assets/fonts/Cairo-Regular.ttf
+#        - asset: assets/fonts/Cairo-Bold.ttf
+#          weight: 700

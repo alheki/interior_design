@@ -1,0 +1,225 @@
+{
+  "id": "booking1",
+  "statusId": 1,
+  "statusNameEn": "Pending",
+  "statusNameAr": "قيد الانتظار",
+  "dateTime": "2025-06-15T14:30:00.000Z",
+  "distanceKm": 0.0,
+  "cancellationFee": 0.0,
+  "canBeCancelled": true,
+  "isRated": false,
+  "address": {
+    "id": "Home Address",
+    "addressName": "Home Address",
+    "streetName": "123 Main Street, Apt 4B",
+    "addressLine": "Egypt, Cairo, Giza, 12345",
+    "addressType": 0,
+    "country":{
+      "id": "1",
+      "code": "EG",
+      "name": "Egypt",
+      "nameAr": "مصر"
+    },
+    "city": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "area": {
+      "id": "1",
+      "name": "Cairo",
+      "nameAr": "القاهرة"
+    },
+    "isDefault": true,
+    "latitude": 203923.2,
+    "longitude":203923.2
+  },
+  "invoiceData":{
+    "subTotal": 500.0,
+    "total": 500.0,
+    "fee": 500.0,
+    "vat": 500.0
+  },
+  "services": [
+    {
+      "id": "service1",
+      "total": 500.0,
+      "recipient":  {
+        "id": "Woman",
+        "name": "Woman",
+        "nameAr": "فتاة",
+        "imageUrl": "https://raw.githubusercontent.com/islamAlheki2019/images/9c3c95009a9dbc0a24d50f092a9c4298dc26fcfd/girl-svgrepo-com%20(1).svg"
+      },
+      "service": [
+        {
+          "id": "hair",
+          "categoryId": "Beauty Services",
+          "name": "Hair",
+          "nameAr": "الشعر",
+          "imageUrl": "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg",
+          "description": "Expert hair care including cuts, styling, and treatments.",
+          "descriptionAr": "العناية بالشعر من قص وتسريحات وعلاجات مميزة.",
+          "optionsList": [
+            {
+              "id": "Blow Dry",
+              "name": "Blow Dry",
+              "nameAr": "استشوار",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Quick drying and styling for shiny hair.",
+              "descriptionAr": "تجفيف سريع وتصفيف لشعر لامع."
+            },
+            {
+              "id": "Hair Coloring",
+              "name": "Hair Coloring",
+              "nameAr": "صبغة شعر",
+              "defaultSelected": false,
+              "price": 300.0,
+              "durationMinutes": 5,
+              "description": "Hair coloring for a fresh, vibrant look٫",
+              "descriptionAr": "تلوين الشعر لمظهر جديد وحيوي."
+            }
+          ]
+        },
+        {
+          "id": "Skin",
+          "categoryId": "Beauty Services",
+          "name": "Skin",
+          "nameAr": "البشرة",
+          "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+          "description": "Skin cleansing, peeling, brightening, and care.",
+          "descriptionAr": "تنظيف البشرة وتقشيرها وتفتيحها والعناية بها.",
+          "optionsList": [
+            {
+              "id": "Facial Cleansing",
+              "name": "Facial Cleansing",
+              "nameAr": "تنظيف بشرة",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Deep cleansing for clear, fresh skin",
+              "descriptionAr": "تنظيف عميق لبشرة نضرة وصافية."
+            },
+            {
+              "id": "Chemical Peeling",
+              "name": "Chemical Peeling",
+              "nameAr": "تقشير كيميائي",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Chemical peel to renew skin layers.",
+              "descriptionAr": "تقشير كيميائي لتجديد طبقات البشرة."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "recipient":  {
+        "id": "Little Girl",
+        "name": "Little Girl",
+        "nameAr": "طفلة",
+        "imageUrl": "https://raw.githubusercontent.com/islamAlheki2019/images/9c3c95009a9dbc0a24d50f092a9c4298dc26fcfd/girl-svgrepo-com%20(2).svg"
+      },
+      "service": [
+        {
+          "id": "hair",
+          "categoryId": "Beauty Services",
+          "name": "Hair",
+          "nameAr": "الشعر",
+          "imageUrl": "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg",
+          "description": "Expert hair care including cuts, styling, and treatments.",
+          "descriptionAr": "العناية بالشعر من قص وتسريحات وعلاجات مميزة.",
+          "optionsList": [
+            {
+              "id": "Blow Dry",
+              "name": "Blow Dry",
+              "nameAr": "استشوار",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Quick drying and styling for shiny hair.",
+              "descriptionAr": "تجفيف سريع وتصفيف لشعر لامع."
+            },
+            {
+              "id": "Hair Coloring",
+              "name": "Hair Coloring",
+              "nameAr": "صبغة شعر",
+              "defaultSelected": false,
+              "price": 300.0,
+              "durationMinutes": 5,
+              "description": "Hair coloring for a fresh, vibrant look٫",
+              "descriptionAr": "تلوين الشعر لمظهر جديد وحيوي."
+            }
+          ]
+        },
+        {
+          "id": "Skin",
+          "categoryId": "Beauty Services",
+          "name": "Skin",
+          "nameAr": "البشرة",
+          "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+          "description": "Skin cleansing, peeling, brightening, and care.",
+          "descriptionAr": "تنظيف البشرة وتقشيرها وتفتيحها والعناية بها.",
+          "optionsList": [
+            {
+              "id": "Facial Cleansing",
+              "name": "Facial Cleansing",
+              "nameAr": "تنظيف بشرة",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Deep cleansing for clear, fresh skin",
+              "descriptionAr": "تنظيف عميق لبشرة نضرة وصافية."
+            },
+            {
+              "id": "Chemical Peeling",
+              "name": "Chemical Peeling",
+              "nameAr": "تقشير كيميائي",
+              "defaultSelected": false,
+              "price": 400.0,
+              "durationMinutes": 5,
+              "description": "Chemical peel to renew skin layers.",
+              "descriptionAr": "تقشير كيميائي لتجديد طبقات البشرة."
+            }
+          ]
+        }
+      ]
+    }
+
+  ],
+  "salon": {
+    "id": "salon1",
+    "name": "Elegance Beauty Salon",
+    "nameAR": "Elegance Beauty Salon",
+    "description": "A luxurious salon for beauty and wellness",
+    "descriptionAR": "صالون راقية للتجميل والتعقيم",
+    "mainImage": "https://images.pexels.com/photos/3997383/pexels-photo-3997383.jpeg",
+    "rating": 4.8,
+    "reviewCount": 354,
+    "latitude": 34.123456,
+    "longitude": 45.789012,
+    "address": "123 Main Street, Downtown",
+    "services": ["Hair Styling", "Nail Care", "Makeup", "Facials"],
+    "isPromoted": true,
+    "isFavorite": false,
+
+    "openingTime": "09:00 AM",
+    "closingTime": "07:00 PM"
+  },
+  "worker": {
+    "id": "worker1",
+    "name": "Sarah Johnson",
+    "imageUrl": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+    "rating": 4.8,
+    "reviewCount": 156,
+    "phone": "+1234567890",
+    "isAvailable": true
+  },
+  "workerLocation": {
+    "latitude": 25.7616,
+    "longitude": -80.1919
+  }
+}

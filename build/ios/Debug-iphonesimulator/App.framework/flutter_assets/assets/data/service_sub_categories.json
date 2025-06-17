@@ -1,0 +1,732 @@
+[
+  {
+    "id": "hair",
+    "categoryId": "Beauty Services",
+    "name": "Hair",
+    "nameAr": "الشعر",
+    "imageUrl": "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg",
+    "description": "Expert hair care including cuts, styling, and treatments.",
+    "descriptionAr": "العناية بالشعر من قص وتسريحات وعلاجات مميزة.",
+    "optionsList": [
+      {
+        "id": "Blow Dry",
+        "name": "Blow Dry",
+        "nameAr": "استشوار",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Quick drying and styling for shiny hair.",
+        "descriptionAr": "تجفيف سريع وتصفيف لشعر لامع."
+      },
+      {
+        "id": "Hair Coloring",
+        "name": "Hair Coloring",
+        "nameAr": "صبغة شعر",
+        "defaultSelected": false,
+        "price": 300.0,
+        "durationMinutes": 5,
+        "description": "Hair coloring for a fresh, vibrant look٫",
+        "descriptionAr": "تلوين الشعر لمظهر جديد وحيوي."
+      },
+      {
+        "id": "Haircut",
+        "name": "Haircut",
+        "nameAr": "قص شعر",
+        "defaultSelected": false,
+        "price": 50.0,
+        "durationMinutes": 5,
+        "description": "Professional haircut to suit your style.",
+        "descriptionAr": "قص شعر احترافي يناسب أسلوبك."
+      },
+      {
+        "id": "Event Hairstyles",
+        "name": "Event Hairstyles",
+        "nameAr": "تسريحات مناسبات",
+        "defaultSelected": false,
+        "price": 11.0,
+        "durationMinutes": 5,
+        "description": "Elegant hairstyles for special occasions.",
+        "descriptionAr": "تسريحات أنيقة للمناسبات الخاصة."
+      },
+      {
+        "id": "Keratin / Protein Treatment",
+        "name": "Keratin / Protein Treatment",
+        "nameAr": "كرياتين / بروتين",
+        "defaultSelected": false,
+        "price": 11.0,
+        "durationMinutes": 5,
+        "description": "Smooth and strengthen hair with treatment.",
+        "descriptionAr": "تنعيم وتقوية الشعر بالعلاج بالبروتين."
+      },
+      {
+        "id": "Hair Oil Bath",
+        "name": "Hair Oil Bath",
+        "nameAr": "حمام زيت",
+        "defaultSelected": false,
+        "price": 11.0,
+        "durationMinutes": 5,
+        "description": "Nourishing oil treatment for healthy hair.",
+        "descriptionAr": "حمام زيت مغذي لصحة الشعر."
+      },
+      {
+        "id": "Hair Rolling / Thermal Styling",
+        "name": "Hair Rolling / Thermal Styling",
+        "nameAr": "لف استشوار / رول حراري",
+        "defaultSelected": false,
+        "price": 11.0,
+        "durationMinutes": 5,
+        "description": "Thermal styling for curls and volume.",
+        "descriptionAr": "لف وتصفيف حراري لتموجات وحجم."
+      }
+    ]
+  },
+  {
+    "id": "Skin",
+    "categoryId": "Beauty Services",
+    "name": "Skin",
+    "nameAr": "البشرة",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Skin cleansing, peeling, brightening, and care.",
+    "descriptionAr": "تنظيف البشرة وتقشيرها وتفتيحها والعناية بها.",
+    "optionsList": [
+      {
+        "id": "Facial Cleansing",
+        "name": "Facial Cleansing",
+        "nameAr": "تنظيف بشرة",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Deep cleansing for clear, fresh skin",
+        "descriptionAr": "تنظيف عميق لبشرة نضرة وصافية."
+      },
+      {
+        "id": "Chemical Peeling",
+        "name": "Chemical Peeling",
+        "nameAr": "تقشير كيميائي",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Chemical peel to renew skin layers.",
+        "descriptionAr": "تقشير كيميائي لتجديد طبقات البشرة."
+      },
+      {
+        "id": "Skin Brightening Sessions",
+        "name": "Skin Brightening Sessions",
+        "nameAr": "جلسات تفتيح",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Brightening treatments for glowing skin.",
+        "descriptionAr": "جلسات تفتيح تمنح بشرتك إشراقة."
+      },
+      {
+        "id": "Blackhead Removal",
+        "name": "Blackhead Removal",
+        "nameAr": "إزالة الرؤوس السوداء",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Remove blackheads for smooth skin.",
+        "descriptionAr": "إزالة الرؤوس السوداء لبشرة ناعمة."
+      },
+      {
+        "id": "Facial Waxing",
+        "name": "Facial Waxing",
+        "nameAr": "شمع للوجه",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Remove facial hair with soft waxing.",
+        "descriptionAr": "إزالة شعر الوجه بالشمع بلطف."
+      },
+      {
+        "id": "Natural Face Masks",
+        "name": "Natural Face Masks",
+        "nameAr": "ماسكات طبيعية",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Natural masks to nourish your skin.",
+        "descriptionAr": "ماسكات طبيعية تغذي بشرتك."
+      }
+
+    ]
+  },
+  {
+    "id": "Nails",
+    "categoryId": "Beauty Services",
+    "name": "Nails",
+    "nameAr": "الأظافر",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Nail care, decoration, and treatments.",
+    "descriptionAr": "العناية بالأظافر وتزيينها وعلاجها.",
+    "optionsList": [
+      {
+        "id": "Pedicure",
+        "name": "Pedicure",
+        "nameAr": "باديكير",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Foot care and beauty for soft, clean feet.",
+        "descriptionAr": "عناية وتجميل للقدمين لنظافة ونعومة مثالية."
+      },
+      {
+        "id": "Manicure",
+        "name": "Manicure",
+        "nameAr": "مانيكير",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Hand and nail grooming for a neat look.",
+        "descriptionAr": "تنظيف وتجميل اليدين والأظافر بمظهر أنيق."
+      },
+      {
+        "id": "Nail Extensions",
+        "name": "Nail Extensions",
+        "nameAr": "تركيب أظافر",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Nail extensions for longer, stylish nails.",
+        "descriptionAr": "تركيب أظافر لإطلالة أطول وأنيقة."
+      },
+      {
+        "id": "Nail Art",
+        "name": "Nail Art",
+        "nameAr": "تزيين الأظافر",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Creative nail designs and decorations.",
+        "descriptionAr": "رسومات وتزيين مبتكر للأظافر."
+      },
+      {
+        "id": "Natural Nail Care",
+        "name": "Natural Nail Care",
+        "nameAr": "عناية بالأظافر الطبيعية",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Care for healthy and strong natural nails.",
+        "descriptionAr": "عناية بالأظافر الطبيعية لتقويتها وصحتها."
+      }
+
+    ]
+  },
+  {
+    "id": "Brows & Lashes",
+    "categoryId": "Beauty Services",
+    "name": "Brows & Lashes",
+    "nameAr": "الحواجب والرموش ",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Treatments for eyebrows and eyelashes.",
+    "descriptionAr": "علاجات الحواجب والرموش المختلفة.",
+    "optionsList": [
+      {
+        "id": "Threading",
+        "name": "Threading",
+        "nameAr": "رسم حواجب بالخيط",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Precise eyebrow shaping using thread.",
+        "descriptionAr": "تشكيل دقيق للحواجب بالخيط."
+      },
+      {
+        "id": "Lash Lift",
+        "name": "Lash Lift",
+        "nameAr": "رفع الرموش",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Curl and lift lashes for a natural look.",
+        "descriptionAr": "رفع وتجعيد الرموش لمظهر طبيعي وجذاب."
+      },
+      {
+        "id": "Eyebrow Tinting",
+        "name": "Eyebrow Tinting",
+        "nameAr": "صبغة حواجب",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Enhance brows with long-lasting color.",
+        "descriptionAr": "تركيب رموش لزيادة الكثافة والطول."
+      },
+
+      {
+        "id": "Lash Extensions",
+        "name": "Lash Extensions",
+        "nameAr": "تركيب رموش",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Add volume and length with lash extensions.",
+        "descriptionAr": "تركيب رموش لزيادة الكثافة والطول."
+      }
+
+
+    ]
+  },
+  {
+    "id": "Makeup",
+    "categoryId": "Beauty Services",
+    "name": "Makeup",
+    "nameAr": "الميكب",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Makeup for daily and special occasions.",
+    "descriptionAr": "مكياج يومي ومناسبات خاصة.",
+    "optionsList": [
+      {
+        "id": "Daily Makeup",
+        "name": "Daily Makeup",
+        "nameAr": "ميكب يومي",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Light makeup for everyday fresh looks.",
+        "descriptionAr": "مكياج ناعم لإطلالة يومية طبيعية."
+      },
+      {
+        "id": "Engagement Makeup",
+        "name": "Engagement Makeup",
+        "nameAr": "ميكب خطوبة",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Elegant look for engagement events.",
+        "descriptionAr": "إطلالة أنيقة لمناسبات الخطوبة."
+      },
+      {
+        "id": "Bridal Makeup",
+        "name": "Bridal Makeup",
+        "nameAr": "ميكب فرح",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Glamorous makeup for your wedding day.",
+        "descriptionAr": "مكياج فاخر ليوم الزفاف."
+      },
+      {
+        "id": "Photoshoot Makeup",
+        "name": "Photoshoot Makeup",
+        "nameAr": "ميكب تصوير",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Flawless look for professional photos.",
+        "descriptionAr": "مكياج مثالي لجلسات التصوير."
+      },
+      {
+        "id": "Party Makeup",
+        "name": "Party Makeup",
+        "nameAr": "ميكب سهرات",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Bold makeup for special night outings.",
+        "descriptionAr": "مكياج جريء لسهرات ومناسبات."
+      },
+      {
+        "id": "Kids' Makeup",
+        "name": "Kids' Makeup",
+        "nameAr": "ميكب أطفال",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Light and fun makeup for kids.",
+        "descriptionAr": "مكياج خفيف وآمن للأطفال."
+      }
+    ]
+  },
+  {
+    "id": "Hair Removal",
+    "categoryId": "Beauty Services",
+    "name": "Hair Removal",
+    "nameAr": "إزالة الشعر",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Waxing and laser hair removal treatments.",
+    "descriptionAr": "إزالة الشعر بالشمع والليزر.",
+    "optionsList": [
+      {
+        "id": "Full Body Wax",
+        "name": "Full Body Wax",
+        "nameAr": "واكس كامل",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Complete body hair removal with wax.",
+        "descriptionAr": "إزالة شعر الجسم بالكامل بالشمع."
+      },
+      {
+        "id": "Facial Wax",
+        "name": "Facial Wax",
+        "nameAr": "واكس وجه",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Gentle wax to remove facial hair.",
+        "descriptionAr": "إزالة شعر الوجه بالشمع بلطف."
+      },
+      {
+        "id": "Full Body Laser",
+        "name": "Full Body Laser",
+        "nameAr": "ليزر جسم كامل",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Long-lasting hair removal for whole body.",
+        "descriptionAr": "إزالة شعر طويلة الأمد للجسم بالكامل."
+      },
+      {
+        "id": "Sensitive Area Laser",
+        "name": "Sensitive Area Laser",
+        "nameAr": "ليزر مناطق حساسة",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Precise laser for sensitive body areas.",
+        "descriptionAr": "ليزر دقيق للمناطق الحساسة."
+      },
+      {
+        "id": "Facial Laser",
+        "name": "Facial Laser",
+        "nameAr": "ليزر وجه",
+        "defaultSelected": false,
+        "price": 200.0,
+        "durationMinutes": 5,
+        "description": "Laser treatment to remove facial hair.",
+        "descriptionAr": "إزالة شعر الوجه بالليزر."
+      }
+
+    ]
+  },
+  {
+    "id": "Body",
+    "categoryId": "Beauty Services",
+    "name": "Body",
+    "nameAr": "الجسم",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Exfoliation, masks, baths, and post-care.",
+    "descriptionAr": "تقشير، ماسكات، حمامات، وعناية ما بعد إزالة الشعر",
+    "optionsList":  [
+      {
+        "id": "Body Scrub",
+        "name": "Body Scrub",
+        "nameAr": "سنفرة للجسم",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Exfoliates dead skin to restore smoothness.",
+        "descriptionAr": "إزالة خلايا الجلد الميت لتنعيم البشرة."
+      },
+      {
+        "id": "Natural Exfoliation",
+        "name": "Natural Exfoliation",
+        "nameAr": "تقشير طبيعي",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Mild exfoliation using natural ingredients.",
+        "descriptionAr": "تقشير خفيف بمكونات طبيعية وآمنة."
+      },
+      {
+        "id": "Body Masks",
+        "name": "Body Masks",
+        "nameAr": "ماسكات للجسم",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Hydrates and nourishes for radiant skin.",
+        "descriptionAr": "ترطيب وتغذية البشرة لإشراقة صحية."
+      },
+      {
+        "id": "Moroccan Bath",
+        "name": "Moroccan Bath",
+        "nameAr": "حمام مغربي",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Deep cleanse with steam and natural soap.",
+        "descriptionAr": "تنظيف عميق بالبخار والصابون الطبيعي."
+      },
+      {
+        "id": "Steam Bath",
+        "name": "Steam Bath",
+        "nameAr": "حمام بخار",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Relaxes muscles and opens up pores.",
+        "descriptionAr": "يرخي العضلات ويفتح مسام البشرة."
+      },
+      {
+        "id": "Post Hair Removal Care",
+        "name": "Post Hair Removal Care",
+        "nameAr": "عناية ما بعد إزالة الشعر",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Calms and protects skin after hair removal.",
+        "descriptionAr": "تهدئة وحماية البشرة بعد إزالة الشعر."
+      }
+    ]
+  },
+
+
+
+  {
+    "id": "Event Preparation",
+    "categoryId": "Event Preparation",
+    "name": "Event Preparation",
+    "nameAr": "تجهيز المناسبات",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Styling, packages, and coordination for occasions.",
+    "descriptionAr": "تجهيزات، باكدجات، وتنظيم للمناسبات.",
+    "optionsList":[
+      {
+        "id": "Deep Cleaning",
+        "name": "Deep Cleaning",
+        "nameAr": "تنظيف عميق",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Removes deep-seated impurities for a refreshed feel.",
+        "descriptionAr": "إزالة الأوساخ العميقة لانتعاش البشرة وتنقيتها."
+      },
+      {
+        "id": "Bridal Package",
+        "name": "Bridal Package",
+        "nameAr": "باكدج عروسة",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "A complete beauty package tailored for brides on their special day.",
+        "descriptionAr": "باكدج متكامل للعناية بجمال العروس في يوم زفافها."
+      },
+      {
+        "id": "Engagement Package",
+        "name": "Engagement Package",
+        "nameAr": "باكدج خطوبة",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "A special package for engagement day including makeup and hairstyling.",
+        "descriptionAr": "باكدج خاص بيوم الخطوبة يشمل الميكب وتصفيف الشعر."
+      },
+      {
+        "id": "Katb Ketab Package",
+        "name": "Katb Ketab Package",
+        "nameAr": "باكدج كتب كتاب",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Elegant beauty package for Katb Ketab ceremony preparation.",
+        "descriptionAr": "باكدج أنيق لتجهيز العروس لحفل كتب الكتاب."
+      },
+      {
+        "id": "Hair and Makeup Package",
+        "name": "Hair + Makeup Package",
+        "nameAr": "باكدج ميكب + شعر",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Combined makeup and hairstyling package for any occasion.",
+        "descriptionAr": "باكدج يجمع بين الميكب وتصفيف الشعر لأي مناسبة."
+      },
+      {
+        "id": "All Inclusive Package with Photography",
+        "name": "All-Inclusive Package with Photography",
+        "nameAr": "باكدج شامل مع تصوير",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Full beauty service package including professional photography.",
+        "descriptionAr": "باكدج شامل للخدمات الجمالية مع جلسة تصوير احترافية."
+      },
+      {
+        "id": "Outfit Stylist",
+        "name": "Outfit Stylist",
+        "nameAr": "استايلست ملابس",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Professional styling assistance for outfit coordination.",
+        "descriptionAr": "مساعدة احترافية في تنسيق الملابس والإطلالات."
+      },
+      {
+        "id": "Hijab Styling",
+        "name": "Hijab Styling",
+        "nameAr": "لفات حجاب",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Elegant and trendy hijab wrapping styles.",
+        "descriptionAr": "لفات حجاب أنيقة وعصرية تناسب كل المناسبات."
+      },
+      {
+        "id": "Full Look Coordination",
+        "name": "Full Look Coordination",
+        "nameAr": "تنسيق لوك كامل",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Complete coordination of makeup, hair, and outfit for a perfect look.",
+        "descriptionAr": "تنسيق كامل للإطلالة من ميكب وشعر وملابس لمظهر مثالي."
+      },
+      {
+        "id": "Hair and Makeup Accessories",
+        "name": "Hair & Makeup Accessories",
+        "nameAr": "أكسسوارات شعر وميكب",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Selection of premium accessories to enhance your look.",
+        "descriptionAr": "مجموعة مختارة من الإكسسوارات الفاخرة لإكمال إطلالتك."
+      }
+    ]
+
+
+  },
+
+  {
+    "id": "Medical & Aesthetic",
+    "categoryId": "Medical & Aesthetic",
+    "name": "Medical & Aesthetic",
+    "nameAr": "جلسات طبية",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Advanced medical and aesthetic skin treatments",
+    "descriptionAr": "جلسات طبية وجمالية متقدمة للعناية بالبشرة.",
+    "optionsList":[
+      {
+        "id": "PRP",
+        "name": "PRP (Plasma)",
+        "nameAr": "بلازما",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Platelet-rich plasma treatment to rejuvenate and heal the skin.",
+        "descriptionAr": "علاج بالبلازما الغنية بالصفائح الدموية لتجديد البشرة وتحفيز الشفاء."
+      },
+      {
+        "id": "Derma Pen",
+        "name": "Derma Pen",
+        "nameAr": "ديرما بن",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Microneedling treatment to stimulate collagen and improve skin texture.",
+        "descriptionAr": "علاج بالوخز الدقيق لتحفيز الكولاجين وتحسين نسيج البشرة."
+      },
+      {
+        "id": "Deep Peeling",
+        "name": "Deep Peeling",
+        "nameAr": "تقشير عميق",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Intensive chemical peel to renew and clarify the skin.",
+        "descriptionAr": "تقشير كيميائي عميق لتجديد وتفتيح البشرة."
+      },
+      {
+        "id": "Therapeutic Facial",
+        "name": "Therapeutic Facial",
+        "nameAr": "فيشل علاجي",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Facial treatment customized for skin healing and hydration.",
+        "descriptionAr": "جلسة فيشل علاجية مخصصة لشفاء البشرة وترطيبها."
+      },
+      {
+        "id": "Whitening Injections",
+        "name": "Whitening Injections",
+        "nameAr": "إبر تفتيح",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Skin-brightening injections for a more even, radiant tone.",
+        "descriptionAr": "حقن لتفتيح البشرة وتوحيد لونها وزيادة إشراقتها."
+      },
+      {
+        "id": "Acne Scar Removal",
+        "name": "Acne Scar Removal",
+        "nameAr": "إزالة آثار حبوب",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Targeted treatment to reduce and smooth acne scars.",
+        "descriptionAr": "علاج مخصص لتقليل آثار الحبوب وتنعيم مظهر البشرة."
+      }
+    ]
+
+
+
+  },
+  {
+    "id": "Hijab & Headscarf Styling",
+    "categoryId": "Hijab & Headscarf Styling",
+    "name": "Hijab & Headscarf Styling",
+    "nameAr": " الحجاب وتنسيق اللفات",
+    "imageUrl": "https://images.pexels.com/photos/939836/pexels-photo-939836.jpeg",
+    "description": "Stylish hijab wrapping and tutorials.",
+    "descriptionAr": "لفات حجاب أنيقة وتعليمية.",
+    "optionsList":[
+      {
+        "id": "Classic Hijab Styling",
+        "name": "Classic Hijab Styling",
+        "nameAr": "لفات حجاب كلاسيك",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Elegant and timeless classic hijab wrapping styles.",
+        "descriptionAr": "لفات حجاب أنيقة وكلاسيكية تناسب جميع المناسبات."
+      },
+      {
+        "id": "Wedding Engagement Hijab",
+        "name": "Wedding / Engagement Hijab",
+        "nameAr": "لفات مناسبة لفرح / خطوبة",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Special hijab styles tailored for weddings and engagements.",
+        "descriptionAr": "لفات حجاب مميزة ومناسبة لحفلات الزواج والخطوبة."
+      },
+      {
+        "id": "No-pin Hijab Styles",
+        "name": "No-pin Hijab Styles",
+        "nameAr": "لفات بدون دبابيس",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Comfortable hijab styles without using pins for a secure fit.",
+        "descriptionAr": "لفات حجاب مريحة بدون استخدام الدبابيس لتثبيت محكم."
+      },
+      {
+        "id": "Hijab Tutorials",
+        "name": "Hijab Tutorials",
+        "nameAr": "تعليم لفات",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Step-by-step guidance on creating various hijab styles.",
+        "descriptionAr": "تعليم كيفية لفات الحجاب بأساليب متنوعة خطوة بخطوة."
+      },
+      {
+        "id": "Hijab Styling Face Shape",
+        "name": "Hijab Styling Based on Face Shape",
+        "nameAr": "استايل لفات حسب شكل الوجه",
+        "defaultSelected": false,
+        "price": 400.0,
+        "durationMinutes": 5,
+        "description": "Customized hijab styles that complement different face shapes.",
+        "descriptionAr": "لفات حجاب مخصصة تناسب أشكال الوجوه المختلفة."
+      }
+    ]
+
+
+
+  }
+
+
+]

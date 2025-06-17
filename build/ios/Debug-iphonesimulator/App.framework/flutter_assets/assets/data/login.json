@@ -1,0 +1,36 @@
+{
+  "statusCode": 200,
+  "statusMessage": "",
+  "data": {
+    "userId":1,
+    "fullName": "Sarah Johnson",
+    "token": "token",
+    "email": "Sarah@Johnson.com",
+    "phone": "01093134356",
+    "idNumber": "12345678932165",
+    "genderId": 0,
+    "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+    "country": {
+      "id":1,
+      "name": "Egypt",
+      "nameAr": "مصر",
+      "imageUrl": "https://admin.imploy.co/Images/Flag_of_Egypt.svg220105164.png",
+      "isLogin": false,
+      "code": "+20",
+      "phoneLength": 10,
+      "phoneHint": "013 0588 1510",
+      "nationality": "Egyptian",
+      "nationalityAr": "مصري",
+      "currencyId": 10,
+      "currency": "Egyptian Pound",
+      "currencyAr": "جنيه مصري",
+      "currencyCode": "EGP",
+      "language": "ar",
+      "languageAr": "العربية",
+      "isDefault": true
+    },
+    "isVerified": true,
+    "isBlocked": false
+  }
+
+}
